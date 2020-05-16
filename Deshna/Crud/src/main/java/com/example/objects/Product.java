@@ -8,39 +8,38 @@ import javax.persistence.Table;
 @Entity
 @Table
 public class Product {
-	Product(){}
 	@Id
 	@Column
-	private int ProductID;
+	private int productid;
 	@Column
-	private String ProductName;
+	private String productname;
 	@Column
-	private int Price;
+	private int price;
 	@Column
-	private String ProductCompany;
+	private String productcompany;
 	
 	public int getProductID() {
-		return ProductID;
+		return productid;
 	}
 	public void setProductID(int productID) {
-		this.ProductID = productID;
+		this.productid = productid;
 	}
 	public String getProductName() {
-		return ProductName;
+		return productname;
 	}
 	public void setProductName(String productName) {
-		this.ProductName = productName;
+		this.productname = productname;
 	}
 	public int getPrice() {
-		return Price;
+		return price;
 	}
 	public void setPrice(int price) {
-		this.Price = price;
+		this.price = price;
 	}
 	public String getProductCompany() {
-		return ProductCompany;
+		return productcompany;
 	}
 	public void setProductCompany(String productCompany) {
-		this.ProductCompany = productCompany;
+		this.productcompany = productcompany;
 	}	
 }

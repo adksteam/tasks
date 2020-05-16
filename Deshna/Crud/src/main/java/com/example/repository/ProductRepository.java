@@ -1,8 +1,10 @@
 package com.example.repository;
-import org.springframework.data.repository.CrudRepository;
 
 import com.example.objects.Product;
+import org.springframework.data.repository.CrudRepository;
 
-public interface ProductRepository extends CrudRepository<Product,Integer>{
+import java.util.List;
+
+public interface ProductRepository extends CrudRepository <Product,Integer> {
 
 }
